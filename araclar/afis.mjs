@@ -195,7 +195,7 @@ function afis(ad, dar, v, projeler) {
   y += 34;
   govde += `<line x1="${P}" y1="${y}" x2="${W - P}" y2="${y}" stroke="${T.kenar}"/>`;
   y += 22;
-  for (const s of satirla("Başlık, kendi animasyon motorum EasyAnim'in fırçasıyla çizildi.", dar ? 70 : 140)) {
+  for (const s of satirla("Bu sayfa, kendi animasyon motorum EasyAnim'in fırçası ve Gece Mürekkebi temasıyla çizildi.", dar ? 70 : 140)) {
     govde += `<text x="${P}" y="${y}" font-size="11.5" fill="${T.soluk}">${kacis(s)}</text>`; y += 16;
   }
   const H = y + 14;
