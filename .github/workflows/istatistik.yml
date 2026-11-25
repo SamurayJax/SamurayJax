@@ -19,15 +19,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: README bölümlerini üret
+      - name: Afişleri üret
         env:
           # Gizli depolar da sayılsın diye PROFIL_TOKEN (kişisel erişim jetonu) varsa o, yoksa yalnız herkese açık veri.
           GH_TOKEN: ${{ secrets.PROFIL_TOKEN || github.token }}
           GH_KULLANICI: ${{ github.repository_owner }}
-        run: node araclar/guncelle.mjs
+          # İletişim satırı için repo değişkeni (Settings → Secrets and variables → Actions → Variables)
+          PROFIL_EPOSTA: ${{ vars.PROFIL_EPOSTA }}
+        run: node araclar/afis.mjs
       - name: Değiştiyse kaydet
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || (git commit -m "İstatistikler güncellendi" && git push)
+          git add assets
+          git diff --cached --quiet || (git commit -m "Profil afişi güncellendi" && git push)
