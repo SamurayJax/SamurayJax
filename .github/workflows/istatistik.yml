@@ -19,17 +19,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Kartları üret
+      - name: README bölümlerini üret
         env:
           # Gizli depolar da sayılsın diye PROFIL_TOKEN (kişisel erişim jetonu) varsa o, yoksa yalnız herkese açık veri.
           GH_TOKEN: ${{ secrets.PROFIL_TOKEN || github.token }}
           GH_KULLANICI: ${{ github.repository_owner }}
-        run: |
-          node araclar/kartlar.mjs
-          node araclar/istatistik.mjs
+        run: node araclar/guncelle.mjs
       - name: Değiştiyse kaydet
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets
+          git add README.md
           git diff --cached --quiet || (git commit -m "İstatistikler güncellendi" && git push)
