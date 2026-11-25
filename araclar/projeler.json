@@ -1,0 +1,73 @@
+[
+  {
+    "id": "easyanim",
+    "ad": "EasyAnim",
+    "aciklama": "Fırça, mürekkep ve ışıkla çalışan 2B animasyon motoru. Sunumlarımın görsel atölyesi.",
+    "etiketler": ["JavaScript", "Node.js", "SVG"],
+    "durum": "özel depo"
+  },
+  {
+    "id": "roblox-animation-engine",
+    "ad": "Roblox Animation Engine",
+    "aciklama": "Tariften fiziğe uygun 3B karakter animasyonu üreten motor.",
+    "etiketler": ["Luau", "Roblox Studio"],
+    "durum": "planlama"
+  },
+  {
+    "id": "easyrec",
+    "ad": "EasyRec + EasyEdit",
+    "aciklama": "Tek tuşla ekran kaydı, OBS'ten sade. Yanında kendi video düzenleyicisi geliyor.",
+    "etiketler": ["C#", "WPF", ".NET"],
+    "durum": "özel depo"
+  },
+  {
+    "id": "dndoynatma",
+    "ad": "DndOynatma",
+    "aciklama": "DnD oturumları için sahne yönetimi: DM paneli ve oyuncu ekranı.",
+    "etiketler": ["TypeScript", "React", "Electron"],
+    "durum": "özel depo"
+  },
+  {
+    "id": "dndses",
+    "ad": "DndSes",
+    "aciklama": "DM'in sesini canlı değiştiren araç: ork, ejderha ve NPC sesleri Discord'a.",
+    "etiketler": ["Python", "Ses işleme"],
+    "durum": "özel depo"
+  },
+  {
+    "id": "dojo",
+    "ad": "Dojo",
+    "aciklama": "Projelerimi arkadaşların bilgisayarına tek tıkla kuran ve güncel tutan uygulama.",
+    "etiketler": ["Tauri", "Rust"],
+    "durum": "geliştiriliyor"
+  },
+  {
+    "id": "aramapaneli",
+    "ad": "AramaPaneli",
+    "aciklama": "Arama, çeviri ve video indirme için hepsi bir arada Chrome yan paneli.",
+    "etiketler": ["JavaScript", "Chrome", "Python"],
+    "durum": "özel depo"
+  },
+  {
+    "id": "stockmachine",
+    "ad": "StockMachine",
+    "aciklama": "Al-sat yapmayan, yalnızca öneri üreten yatırım analiz botu. Öneriler Telegram'a gelir.",
+    "etiketler": ["Python", "GitHub Actions", "Telegram"],
+    "durum": "özel depo"
+  },
+  {
+    "id": "sophia",
+    "ad": "Sophia",
+    "aciklama": "Bir spor ve eğlence mekânı için yerelde çalışan, Türkçe konuşan sesli asistan.",
+    "etiketler": ["Python", "Whisper", "Ollama"],
+    "durum": "planlama"
+  },
+  {
+    "id": "minecraft",
+    "ad": "Minecraft eklentileri",
+    "aciklama": "Klan davet sistemi, sohbet modu ve maske modu gibi Minecraft eklentileri.",
+    "etiketler": ["Java"],
+    "durum": "açık kaynak",
+    "baglanti": "https://github.com/SamurayJax?tab=repositories&q=Mc"
+  }
+]

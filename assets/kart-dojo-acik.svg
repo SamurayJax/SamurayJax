@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" width="420" height="148" role="img" aria-label="Dojo: Projelerimi arkadaşların bilgisayarına tek tıkla kuran ve güncel tutan uygulama.">
+<title>Dojo</title>
+<defs><linearGradient id="z" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4eee2"/><stop offset="1" stop-color="#ebe2cf"/></linearGradient></defs>
+<rect x=".5" y=".5" width="419" height="147" rx="12" fill="url(#z)" stroke="rgba(21,24,42,.16)"/>
+<g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+<text x="22" y="38" font-size="19" font-weight="600" fill="#15182a">Dojo</text>
+<path d="M22.0 47.1 L23.8 47.0 L25.7 47.1 L27.5 47.2 L29.3 47.1 L31.1 47.0 L33.0 46.8 L34.8 46.6 L36.6 46.4 L38.4 46.3 L40.3 46.2 L42.1 46.1 L43.9 46.1 L45.7 46.2 L47.6 46.3 L49.4 46.4 L51.2 46.6 L53.0 46.9 L54.9 47.2 L56.7 47.7 L58.5 48.1 L60.3 48.7 L62.2 49.3 L64.0 49.6 L64.0 50.4 L62.2 50.1 L60.3 50.0 L58.5 49.9 L56.7 49.7 L54.9 49.6 L53.0 49.5 L51.2 49.3 L49.4 49.2 L47.6 49.0 L45.7 48.9 L43.9 48.9 L42.1 48.9 L40.3 48.9 L38.4 49.0 L36.6 49.2 L34.8 49.3 L33.0 49.6 L31.1 49.9 L29.3 50.3 L27.5 50.8 L25.7 51.6 L23.8 52.4 L22.0 52.9Z" fill="#c8323a"/>
+<rect x="294" y="20" width="110" height="22" rx="11" fill="none" stroke="#c8323a"/>
+<text x="349" y="35" text-anchor="middle" font-size="11.5" fill="#c8323a">geliştiriliyor</text>
+<text x="22" y="76" font-size="13.5" fill="#4a4f63">Projelerimi arkadaşların bilgisayarına tek tıkla</text><text x="22" y="95" font-size="13.5" fill="#4a4f63">kuran ve güncel tutan uygulama.</text>
+<rect x="22" y="112" width="53" height="22" rx="11" fill="rgba(21,24,42,.05)" stroke="rgba(21,24,42,.16)"/><text x="48.5" y="127" text-anchor="middle" font-size="11.5" fill="#4a4f63">Tauri</text><rect x="81" y="112" width="46" height="22" rx="11" fill="rgba(21,24,42,.05)" stroke="rgba(21,24,42,.16)"/><text x="104" y="127" text-anchor="middle" font-size="11.5" fill="#4a4f63">Rust</text>
+</g>
+</svg>
