@@ -157,7 +157,7 @@ function istatistik(v, x, y, w, T, dar) {
   let h = dy + 42 + Math.ceil(enCok.length / kol) * 21 - y + 10;
   if (!dar) h = Math.max(h, 210);
   const tarih = ORNEK ? "örnek veri" : "güncelleme " + new Date().toISOString().slice(0, 10);
-  out += `<text x="${x + 24}" y="${y + h - 4}" font-size="10.5" fill="${T.soluk}">${tarih} · her gün kendiliğinden yenilenir</text>`;
+  out += `<text x="${x + 24}" y="${y + h - 4}" font-size="10.5" fill="${T.soluk}">${tarih}</text>`;
   return { svg: `<rect x="${x + .5}" y="${y + .5}" width="${w - 1}" height="${h + 14}" rx="14" fill="url(#p-kart)" stroke="${T.kenar}"/>` + out, h: h + 14 };
 }
 
@@ -195,7 +195,7 @@ function afis(ad, dar, v, projeler) {
   y += 34;
   govde += `<line x1="${P}" y1="${y}" x2="${W - P}" y2="${y}" stroke="${T.kenar}"/>`;
   y += 22;
-  for (const s of satirla("Başlık, kendi animasyon motorum EasyAnim'in fırçasıyla çizildi. İstatistikler her gün GitHub Actions ile kendiliğinden yenilenir.", dar ? 70 : 140)) {
+  for (const s of satirla("Başlık, kendi animasyon motorum EasyAnim'in fırçasıyla çizildi.", dar ? 70 : 140)) {
     govde += `<text x="${P}" y="${y}" font-size="11.5" fill="${T.soluk}">${kacis(s)}</text>`; y += 16;
   }
   const H = y + 14;
