@@ -41,21 +41,20 @@
 ## 📊 İstatistikler
 
 <!--ISTATISTIK:BASLA-->
-📈 **838** katkı <sub>son 1 yıl</sub> · 🔨 **812** commit <sub>bu yıl</sub><br>
-📦 **21 <sub>(14 gizli)</sub>** depo · 🔥 **4 gün** seri <sub>en uzun 4</sub>
+📈 **57** katkı <sub>son 1 yıl</sub> · 🔨 **50** commit <sub>bu yıl</sub><br>
+📦 **7** depo · 🔥 **1 gün** seri <sub>en uzun 3</sub>
 
 **En çok kullandığım diller**
 
 ```text
-TypeScript  █████████░░░░░░░░░░░  44.9 %
-JavaScript  ████░░░░░░░░░░░░░░░░  21.9 %
-C#          ███░░░░░░░░░░░░░░░░░  16.0 %
-Python      ███░░░░░░░░░░░░░░░░░  13.7 %
-Java        █░░░░░░░░░░░░░░░░░░░   3.1 %
-HTML        ░░░░░░░░░░░░░░░░░░░░   0.3 %
+TypeScript  ████████████░░░░░░░░  58.9 %
+JavaScript  ██████░░░░░░░░░░░░░░  28.8 %
+CSS         ██░░░░░░░░░░░░░░░░░░   7.7 %
+Java        █░░░░░░░░░░░░░░░░░░░   4.1 %
+HTML        ░░░░░░░░░░░░░░░░░░░░   0.4 %
 ```
 
-<sub>örnek veri · her gün kendiliğinden yenilenir</sub>
+<sub>son güncelleme 2026-11-25 · her gün kendiliğinden yenilenir</sub>
 <!--ISTATISTIK:BITIR-->
 
 ## 🎲 Boş zamanlarımda
